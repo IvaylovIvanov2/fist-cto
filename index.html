@@ -10,9 +10,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
     <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
     <title>FIST</title>
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -52,6 +57,14 @@
       </div>
       <p>CA: 0x06b89b13Ed44Eb70ED4F92880d43532A0b21fE8b</p>
       <p>Total supply: 420,690,000,000 $FIST</p>
+      <button class="uniswap-buy-btn">
+        <a
+          href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x06b89b13Ed44Eb70ED4F92880d43532A0b21fE8b"
+          target="_blank"
+        >
+          Buy on Uniswap
+        </a>
+      </button>
     </div>
 
     <div class="description-container">
@@ -71,6 +84,7 @@
         coincidental and intended for satirical or humorous purposes.
       </p>
     </div>
+
     <footer>
       <p>
         Icons made by
@@ -89,5 +103,6 @@
         >.
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
